@@ -11,6 +11,17 @@ export const Hero = () => {
         regardless of the background, can now manage their business like a pro.
         Simple. Intuitive. And never boring.
       </p>
+      <div className="mt-12 flex w-full max-w-lg justify-center">
+        <input
+          type="text"
+          className="mr-10 flex-1 rounded-2xl border border-neutral-700 px-4 py-2 text-white transition duration-200 placeholder:text-neutral-500 focus:ring-1 focus:ring-sky-600 focus:outline-none"
+          placeholder="Enter your email"
+        />
+        <button className="relative cursor-pointer rounded-xl border border-neutral-700 px-4 py-2 text-white">
+          <div className="absolute inset-x-0 -bottom-px h-px w-full bg-gradient-to-r from-transparent via-sky-600 to-transparent"></div>
+          Join Waitlist
+        </button>
+      </div>
     </div>
   );
 };
